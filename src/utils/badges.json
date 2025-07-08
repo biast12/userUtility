@@ -1,0 +1,72 @@
+[
+  {
+    "FlagName": "ActiveDeveloper",
+    "EmojiName": "activedeveloper",
+    "EmojiIDEnv": "BADGE_ACTIVEDEV_ID"
+  },
+  {
+    "FlagName": "Automod",
+    "EmojiName": "automod",
+    "EmojiIDEnv": "BADGE_AUTOMOD_ID"
+  },
+  {
+    "FlagName": "BugHunterLevel1",
+    "EmojiName": "discordbughunter1",
+    "EmojiIDEnv": "BADGE_BUGHUNTER1_ID"
+  },
+  {
+    "FlagName": "BugHunterLevel2",
+    "EmojiName": "discordbughunter2",
+    "EmojiIDEnv": "BADGE_BUGHUNTER2_ID"
+  },
+  {
+    "FlagName": "CertifiedModerator",
+    "EmojiName": "discordmod",
+    "EmojiIDEnv": "BADGE_MOD_ID"
+  },
+  {
+    "FlagName": "HypeSquad",
+    "EmojiName": "hypesquadevents",
+    "EmojiIDEnv": "BADGE_HYPESQUADEVENTS_ID"
+  },
+  {
+    "FlagName": "HypeSquadOnlineHouse1",
+    "EmojiName": "hypesquadbravery",
+    "EmojiIDEnv": "BADGE_BRAVERY_ID"
+  },
+  {
+    "FlagName": "HypeSquadOnlineHouse2",
+    "EmojiName": "hypesquadbrilliance",
+    "EmojiIDEnv": "BADGE_BRILLIANCE_ID"
+  },
+  {
+    "FlagName": "HypeSquadOnlineHouse3",
+    "EmojiName": "hypesquadbalance",
+    "EmojiIDEnv": "BADGE_BALANCE_ID"
+  },
+  {
+    "FlagName": "Partner",
+    "EmojiName": "discordpartner",
+    "EmojiIDEnv": "BADGE_PARTNER_ID"
+  },
+  {
+    "FlagName": "PremiumApp",
+    "EmojiName": "premiumapp",
+    "EmojiIDEnv": "BADGE_PREMIUMAPP_ID"
+  },
+  {
+    "FlagName": "PremiumEarlySupporter",
+    "EmojiName": "discordearlysupporter",
+    "EmojiIDEnv": "BADGE_EARLYSUPPORTER_ID"
+  },
+  {
+    "FlagName": "Staff",
+    "EmojiName": "discordstaff",
+    "EmojiIDEnv": "BADGE_STAFF_ID"
+  },
+  {
+    "FlagName": "VerifiedDeveloper",
+    "EmojiName": "discordbotdev",
+    "EmojiIDEnv": "BADGE_VERIFIEDDEV_ID"
+  }
+]
