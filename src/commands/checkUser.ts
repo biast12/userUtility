@@ -2,6 +2,11 @@ import { Client, MessageFlags, User, ChatInputCommandInteraction, ContainerBuild
 import { parseBadges } from '../utils/parseBadges';
 import { errorComp } from '../utils/error';
 
+// Dev variables
+
+// Raw badge display
+const showRawBadges = false;
+
 // Command execution logic
 export async function executeCommand(client: Client, interaction: ChatInputCommandInteraction) {
     let userID = interaction.options.getString('userid', true);
@@ -25,6 +30,7 @@ export async function executeCommand(client: Client, interaction: ChatInputComma
 
         const flags = data.flags?.toArray();
         const badgeEmojis = flags && flags.length > 0 ? parseBadges(flags.map(flag => flag.toString())) : null;
+        const rawBadges = flags && flags.length > 0 ? flags.map(flag => `\`${flag.toString()}\``).join(', ') : null;
 
         // Get avatar and banner URLs if available
         const avatarUrl = data.avatarURL() || data.defaultAvatarURL;
@@ -46,6 +52,7 @@ export async function executeCommand(client: Client, interaction: ChatInputComma
                     `**Mention:** <@${userId}>`,
                     `**Created:** <t:${Math.floor(createdTimestamp / 1000)}:R>`,
                     badgeEmojis ? `**Badges:** ${badgeEmojis}` : null,
+                    showRawBadges && rawBadges ? `**Raw Badges:** ${rawBadges}` : null,
                     isBot
                         ? isVerifiedBot
                             ? `**This user is a verified bot**`
